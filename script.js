@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function startChat() {
         setTimeout(function() {
-            showBotMessage("I am your budget assistant. I will help you to better organize your finances. As an international student in Germany, it is important to have a good organization of your money. Are you ready?");
+            showBotMessage("I am a.w.e.s.o.m.o your budget assistant. I will help you to better organize your finances. As an international student in Germany, it is important to have a good organization of your money. Are you ready?");
         }, 700);
     }
 
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
             if (mainSource === "") {
                 if (userInput === "work" || userInput === "savings" || userInput === "scholarship") {
                     mainSource = userInput;
-                    showBotMessage("How much is your total income?");
+                    showBotMessage("How much is your total income enter the amount in euro?");
                 } else {
                     showErrorMessage("Sorry, I could not understand what you said. Please say 'work', 'savings', or 'scholarship'.");
                 }
